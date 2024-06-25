@@ -1,0 +1,210 @@
+/* .nav-right{
+    float: right;
+    text-align: right;
+}
+a:hover{
+    color:green;
+}
+a{
+    color: white;
+}
+a:visited{
+    color: aqua;
+}
+.zoom {
+    transition: transform .2s; 
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2); 
+  }
+  
+#foot{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+h4{
+    color: white;
+    text-align: center;
+}
+h1{
+    color: white;
+}
+form{
+    color: white;
+    text-align: center;
+}
+#signup {
+    background-image:url(https://store-images.s-microsoft.com/image/apps.47842.9007199266246365.2a2d31fe-dc82-41b6-9774-9ce54b027860.e16db4e0-8f09-444d-8119-15dc01401ba2?mode=scale&q=90&h=1080&w=1920) ;
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #form {
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+    display: block;
+    font-size: larger;
+    margin: 8px 0 2px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"] {
+    width: 15%;
+    padding: 8px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2.5px solid #000000;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .sign-up{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: black;
+    height: 30px;
+    border-radius: 5px;
+
+  }
+  .home{
+    text-decoration: none;
+    font-size: 30px;
+    background-color: black;
+    width: 100%;
+    border-radius: 5px;
+  } */
+
+
+
+
+ 
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 40rem;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-size: large;
+  }
+  
+  
+  header {
+    justify-content: space-between;
+    margin-top: 113rem;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000000;
+    padding: 20px;
+  }
+  
+  .netflixlogo img {
+    height: 100px;
+    position: relative;
+    margin:0px 580px 0 600px;
+  }
+  
+  .nav-right {
+    float: right;
+    text-align: right;
+  }
+  
+  .nav-right a,
+  .sub-nav a {
+    color: white;
+    margin-left: 10px;
+    margin-top: 50px;
+    text-decoration: none;
+    display: flex;
+    display: inline-block;
+   
+  }
+  
+  .main-nav {
+    display: flex; 
+    justify-content: flex-start;
+    margin-left: -18px;
+  }
+  .main-nav a {
+    margin-top: 50px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    display: inline-block;
+    margin-left: 15px;
+  }
+  
+  .sub-nav a {
+    margin-left: 10px;
+  }
+  
+  a:hover {
+    color: green;
+  }
+  
+  .zoom {
+    transition: transform 0.2s;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2);
+  }
+  
+  .main-container {
+    padding: 10px;
+  }
+  
+  h1{
+    text-align: center;
+    color: white;
+  }
+footer {
+      padding: 5px;
+      margin-top: 50px;
+      background-color: #000000;
+      text-align: center;
+    }
+    footer a {  
+      text-decoration: none;
+      margin-right: 40px;
+      color: white;
+    }
